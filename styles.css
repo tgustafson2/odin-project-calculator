@@ -1,0 +1,36 @@
+#page-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#calculator{
+    display: flex;
+    flex-direction: column;
+    min-width: 450px;
+    min-height: 500px;
+    height: 500px;
+}
+
+#display{
+    text-align: end;
+    flex: 1;
+}
+
+.calc-row{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+}
+
+#zero{
+    flex-basis: 50%;
+}
+
+button{
+    flex-basis: 25%;
+}
+
+
+

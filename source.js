@@ -89,7 +89,7 @@ class Calculator{
     }
 
     setDisplay(num){
-        const display = document.querySelector("#display");
+        const display = document.querySelector("#output");
         display.textContent = num;
     }
 

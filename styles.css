@@ -83,6 +83,10 @@ button{
     background-color: #2c2419;
 }
 
+body{
+    margin: 0;
+}
+
 
 
 .number,
